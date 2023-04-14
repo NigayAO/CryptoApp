@@ -21,6 +21,10 @@ struct HomeView: View {
             VStack {
                 homeHeader
                 
+                HomeStatView(showPortfolio: $showPortfolio)
+                
+                SearchBarView(searchText: $vm.searchText)
+                
                 columnTitles
                 
                 if !showPortfolio {
@@ -66,9 +70,7 @@ extension HomeView {
                 .animation(.none)
             Spacer()
             CircleButtonView(iconName: "chevron.right")
-                .rotationEffect(Angle(degrees:
-                                        showPortfolio ? 180 : 0
-                                     ))
+                .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
                 .onTapGesture {
                     withAnimation(.spring()) {
                         showPortfolio.toggle()
