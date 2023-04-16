@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D238DDA29EC5E51006918B2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D238DD929EC5E51006918B2 /* HapticManager.swift */; };
 		1D2FBCCB29D871B400AC351F /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FBCCA29D871B400AC351F /* CryptoAppApp.swift */; };
 		1D2FBCCD29D871B400AC351F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2FBCCC29D871B400AC351F /* ContentView.swift */; };
 		1D2FBCD229D871B500AC351F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2FBCD129D871B500AC351F /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D238DD929EC5E51006918B2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		1D2FBCC729D871B400AC351F /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2FBCCA29D871B400AC351F /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		1D2FBCCC29D871B400AC351F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			children = (
 				1D76651D29D9DCFC005C72CB /* NetworkingManager.swift */,
 				1D76652729DA10B7005C72CB /* LocaleFileManager.swift */,
+				1D238DD929EC5E51006918B2 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				1D76652C29DA1E71005C72CB /* UIApplication.swift in Sources */,
 				1D2FBCDE29D8743A00AC351F /* Color.swift in Sources */,
 				1D76651E29D9DCFC005C72CB /* NetworkingManager.swift in Sources */,
+				1D238DDA29EC5E51006918B2 /* HapticManager.swift in Sources */,
 				1D667A5529E9EE4F00897F8B /* HomeStatView.swift in Sources */,
 				1D76652A29DA1AC3005C72CB /* SearchBarView.swift in Sources */,
 				1D2FBCEA29D8920000AC351F /* CircleButtonAnimationView.swift in Sources */,
